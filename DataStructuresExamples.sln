@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindDuplicates", "ArrayAndS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramCheck", "ArrayAndStrings\AnagramCheck\AnagramCheck.csproj", "{04E3E7EE-0279-47FF-A4D9-DBD1CD5287C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedLists", "LinkedLists", "{4CB17FDD-5735-454D-87B7-D86A8FEDAC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListCycle", "LinkedLists\LinkedListCycle\LinkedListCycle.csproj", "{940203B1-CCB6-4D5B-9A60-41FB5C1CCD79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{04E3E7EE-0279-47FF-A4D9-DBD1CD5287C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04E3E7EE-0279-47FF-A4D9-DBD1CD5287C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04E3E7EE-0279-47FF-A4D9-DBD1CD5287C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940203B1-CCB6-4D5B-9A60-41FB5C1CCD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940203B1-CCB6-4D5B-9A60-41FB5C1CCD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940203B1-CCB6-4D5B-9A60-41FB5C1CCD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940203B1-CCB6-4D5B-9A60-41FB5C1CCD79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{9FD684D9-99C0-4025-ABCE-47BAC14FE802} = {B18911FF-A549-4BCE-86CA-5CC10BA033F2}
 		{D637EBDC-F893-42B9-99A9-F6D72C42C3E0} = {EC2B2310-068E-4045-A050-F7ED191D6B4A}
 		{04E3E7EE-0279-47FF-A4D9-DBD1CD5287C7} = {EC2B2310-068E-4045-A050-F7ED191D6B4A}
+		{940203B1-CCB6-4D5B-9A60-41FB5C1CCD79} = {4CB17FDD-5735-454D-87B7-D86A8FEDAC18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3CC3317-8DFD-41FF-B2B5-BBEB67A99910}
