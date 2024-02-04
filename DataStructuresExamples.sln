@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "TreesAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstAndDepthSearch", "TreesAndGraphs\BreadthFirstAndDepthSearch\BreadthFirstAndDepthSearch.csproj", "{07C6410D-4DFD-4607-A05B-33E7EB4E021A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QueueAndStack", "QueueAndStack", "{D9CF19E5-A1FF-4663-9B50-B6006111E17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueImplementingUsingStack", "QueueAndStack\QueueImplementingUsingStack\QueueImplementingUsingStack.csproj", "{2E76DB1E-BA23-4FF8-BA84-30603E61A27C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,10 @@ Global
 		{07C6410D-4DFD-4607-A05B-33E7EB4E021A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C6410D-4DFD-4607-A05B-33E7EB4E021A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07C6410D-4DFD-4607-A05B-33E7EB4E021A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E76DB1E-BA23-4FF8-BA84-30603E61A27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E76DB1E-BA23-4FF8-BA84-30603E61A27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E76DB1E-BA23-4FF8-BA84-30603E61A27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E76DB1E-BA23-4FF8-BA84-30603E61A27C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +102,7 @@ Global
 		{2F9EBBC1-E884-49F8-8F20-8143B42535DF} = {4CB17FDD-5735-454D-87B7-D86A8FEDAC18}
 		{9B151636-86FE-4B40-B662-51A52A37078F} = {BB119FD6-C9A8-47EE-822C-7415F179D996}
 		{07C6410D-4DFD-4607-A05B-33E7EB4E021A} = {BB119FD6-C9A8-47EE-822C-7415F179D996}
+		{2E76DB1E-BA23-4FF8-BA84-30603E61A27C} = {D9CF19E5-A1FF-4663-9B50-B6006111E17C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3CC3317-8DFD-41FF-B2B5-BBEB67A99910}
