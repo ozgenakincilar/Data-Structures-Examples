@@ -7,15 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "Dynam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumbers", "DynamicProgramming\FibonacciNumbers\FibonacciNumbers.csproj", "{F07DD216-14D3-4835-8CF2-67F876B9EAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequence", "DynamicProgramming\LongestIncreasingSubsequence\LongestIncreasingSubsequence.csproj", "{A7509B70-AE35-4560-8B62-57B99078EAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSubsequence", "DynamicProgramming\LongestIncreasingSubsequence\LongestIncreasingSubsequence.csproj", "{A7509B70-AE35-4560-8B62-57B99078EAEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchAndSort", "SearchAndSort", "{B18911FF-A549-4BCE-86CA-5CC10BA033F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "SearchAndSort\QuickSort\QuickSort.csproj", "{3EDDCE97-8112-4147-A43E-F7059576871C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "SearchAndSort\QuickSort\QuickSort.csproj", "{3EDDCE97-8112-4147-A43E-F7059576871C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C538105F-3D6E-4756-8B70-F7C2FDFE72D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "SearchAndSort\BinarySearch\BinarySearch.csproj", "{9FD684D9-99C0-4025-ABCE-47BAC14FE802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "SearchAndSort\BinarySearch\BinarySearch.csproj", "{9FD684D9-99C0-4025-ABCE-47BAC14FE802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
