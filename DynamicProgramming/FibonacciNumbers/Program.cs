@@ -2,21 +2,24 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static int Fibonacci(int n)
         {
-            Console.WriteLine("please write the input ");
-            var input = Console.ReadLine();
-            var result = Fibonacci(Convert.ToInt32(input));
-            Console.WriteLine($" result is : {result}");
+            if (n <= 1)
+                return n;
+
+            return Fibonacci(n - 1) + Fibonacci(n - 2);
         }
 
-        public static int Fibonacci(int number)
+        static void Main()
         {
-            if (number <= 1)
+            Console.Write("Enter the number of Fibonacci numbers to generate: ");
+            int count = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nFibonacci Series:");
+            for (int i = 0; i < count; i++)
             {
-                return number;
+                Console.Write($"{Fibonacci(i)} ");
             }
-            return Fibonacci(number - 1) + Fibonacci(number - 2);
         }
     }
 }
