@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerWithMostWater", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluateReversePolishNotation", "QueueAndStack\EvaluateReversePolishNotation\EvaluateReversePolishNotation.csproj", "{53620972-3C10-41B4-888B-8467413B3A95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrappingRainWater", "ArrayAndStrings\TrappingRainWater\TrappingRainWater.csproj", "{BB77ED37-B96C-4059-B77B-C692554B0B78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{53620972-3C10-41B4-888B-8467413B3A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53620972-3C10-41B4-888B-8467413B3A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53620972-3C10-41B4-888B-8467413B3A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB77ED37-B96C-4059-B77B-C692554B0B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB77ED37-B96C-4059-B77B-C692554B0B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB77ED37-B96C-4059-B77B-C692554B0B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB77ED37-B96C-4059-B77B-C692554B0B78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +123,7 @@ Global
 		{2E76DB1E-BA23-4FF8-BA84-30603E61A27C} = {D9CF19E5-A1FF-4663-9B50-B6006111E17C}
 		{574F35F9-4300-492D-980B-B7962BF8DCD0} = {EC2B2310-068E-4045-A050-F7ED191D6B4A}
 		{53620972-3C10-41B4-888B-8467413B3A95} = {D9CF19E5-A1FF-4663-9B50-B6006111E17C}
+		{BB77ED37-B96C-4059-B77B-C692554B0B78} = {EC2B2310-068E-4045-A050-F7ED191D6B4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3CC3317-8DFD-41FF-B2B5-BBEB67A99910}
